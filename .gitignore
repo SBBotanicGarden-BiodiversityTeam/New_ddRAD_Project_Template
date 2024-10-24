@@ -1,0 +1,80 @@
+# .gitignore files for SBBG Genetics Lab #
+# last update 10.24.2024 #
+# Personal config files #
+#########################
+configs
+
+# Backups and old files #
+#########################
+*.back
+*.bak
+*.old
+*2.sh
+Backup
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# other folders I have on my local version of this repo #
+########################################################
+
+
+
+# data #
+###############################
+*.fastq.gz
+*.fa
+
+# ipyrad output files #
+########################
+*_outfiles/
+*_across/
+*.hdf5
+*.fa
+
+# R #
+#########
+*.numbers
+*-tmpalign/
+old*/
+
+# stacks #
+##########
+*_outfile/
+*.tsv
